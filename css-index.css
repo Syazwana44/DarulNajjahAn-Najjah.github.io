@@ -1,0 +1,56 @@
+/* css index */
+/* Types of selector */
+
+/* 1. Name of element as selector */
+h2 {color:DarkSLateGray;}
+h2 {font-family: "Lucida Handwriting";}
+
+/* 2. Selecting links based on their STATE (pseudo-class) */
+
+a:link {color:orange;
+	text-decoration:none;}
+
+a:visited {color:purple;
+	text-decoration:none;}
+
+a:hover {color:green;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;}
+
+/* Navigation Section */
+.container {  background-color: red;
+  background-image: linear-gradient(to bottom right, purple, LightBlue);}
+
+/* Main */
+.para-001 {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.para-0001 {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.para-02 {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+
+/* Sidebar section */
+.sidebar {background-color:ededed;
+	width:20%;
+	float:left;}
+
+a:hover {color:green;
+	text-decoration:none;
+	font-size:50px;
+	font-weight:bold;}
+
+/* Footer Section */
+.main-footer {  background-color: red;
+  background-image: linear-gradient(to bottom right, LightPink, LightBlue);}
+
+.class-para {font-family: "Lucida Console";}
